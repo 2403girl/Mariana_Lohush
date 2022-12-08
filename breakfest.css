@@ -1,0 +1,218 @@
+.item_breakfest {
+    width: 45%;
+    height: 300px;
+    border-radius: 0 15px 15px 0;
+    display: grid;
+    grid-template-columns: 40% 10% 10% 40%;
+    grid-template-rows: 10% 40% 40% 10%;
+    box-shadow: 0 0 4px 4px var(--color_shadow);
+    background-color: var(--background_color);
+    overflow: hidden;
+}
+
+.image_breakfest {
+    display: block;
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.breakfest_1{
+    background-image: url(image/breakfest_1.webp);
+}
+
+
+.breakfest_2 {
+    background-image: url(image/Breakfest_2.webp);
+}
+.breakfest_3 {
+    background-image: url(image/breakfest_3.webp);
+}
+.breakfest_4{
+    background-image: url(image/breakfest_4.webp);
+}
+.breakfest_5{
+    background-image: url(image/breakfest_5.webp);
+}
+.breakfest_6{
+    background-image: url(image/breakfest_6.webp);
+}
+.recipe {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: cornsilk;
+    border-radius: 15px 0 0 15px;
+
+}
+
+.border_recipe {
+    width: 95%;
+    height: 87%;
+    border: 2px solid var(--basic_color);
+    border-right: none;
+    border-radius: 15px 0 0 15px;
+
+
+}
+
+.text_top {
+    height: 10%;
+    color: #9c68d4;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+
+}
+
+.text_top>p {
+    font-size: 13px;
+}
+
+.ricipe_name {
+    height: 80%;
+    display: flex;
+
+}
+
+.ricipe_name>.text_logo {
+    font-size: 35px;
+    color: black;
+}
+
+.star {
+    display: flex;
+    justify-content: end;
+}
+
+.star>p {
+    color: #9c68d4;
+}
+
+/* .Lets_cook {
+    display: flex;
+} */
+
+.overlay {
+    background-color: cornsilk;
+    grid-row: 1 / 5;
+    grid-column: 1 / 5;
+    display: grid;
+    color: black;
+    /* justify-content: center;
+    align-items: center; */
+    padding: 5px 5px 5px 60px;
+    font-family: var(--font-family);
+    transform: translateY(100%);
+    transition: transform 1s ease-out;
+    line-height: 1.75;
+overflow: scroll;
+scroll-behavior: auto;
+}
+.ingredients{
+    display: flex;
+}
+.Lets_cook{
+    display: flex;
+}
+.list_of_ingredients>ul>p{
+    color: var(--basic_color);
+    font-size: x-large;
+}
+.list_of_ingredients>ul>li{
+    list-style-image: url(image/spoon-solid.svg);
+}
+.list_of_ingredients>ul>li>i {
+    color: var(--basic_color);
+}
+.ingredients>p {
+    font-family: var(--font-family);
+    font-size: x-large;
+    margin-top: 10px;
+}
+
+.item_breakfest:hover .overlay {
+    transform: translateY(0);
+}
+
+/* Styling Button Lets_cook */
+
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 10px 25px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+        7px 7px 20px 0px rgba(0, 0, 0, .1),
+        4px 4px 5px 0px rgba(0, 0, 0, .1);
+    outline: none;
+}
+
+.btn-10 {
+    background: var(--color_shadow);
+    background: linear-gradient(0deg, #A0D468 0%, rgb(192, 229, 164)100%);
+    color: #fff;
+    border: none;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.btn-10:after {
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease;
+    -webkit-transform: scale(.1);
+    transform: scale(.1);
+}
+
+.btn-10:hover {
+    color: #fff;
+    border: none;
+    background: transparent;
+}
+
+.btn-10:hover:after {
+    background: rgb(158, 105, 212);
+    background: linear-gradient(0deg, rgb(212, 105, 212) 0%, rgb(159, 212, 105)100%);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+@media screen and (max-width: 1200px) {
+    .item_breakfest {
+        width: 95%;
+        height: 400px;
+    }
+    .ingredients>p {
+        margin-top: 5px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .item_breakfest {
+        width: 100%;
+        height: 400px;
+    }
+}
