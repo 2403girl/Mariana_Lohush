@@ -162,6 +162,8 @@ scroll-behavior: auto;
         7px 7px 20px 0px rgba(0, 0, 0, .1),
         4px 4px 5px 0px rgba(0, 0, 0, .1);
     outline: none;
+    text-decoration: none;
+
 }
 
 .btn-10 {
@@ -193,8 +195,8 @@ scroll-behavior: auto;
 }
 
 .btn-10:hover:after {
-    background: rgb(158, 105, 212);
-    background: linear-gradient(0deg, rgb(212, 105, 212) 0%, rgb(159, 212, 105)100%);
+    background: #a0d468;
+    background: linear-gradient(0deg, #daeec4) 0%, rgb(159, 212, 105)100%;
     -webkit-transform: scale(1);
     transform: scale(1);
 }
