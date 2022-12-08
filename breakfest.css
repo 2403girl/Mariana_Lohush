@@ -82,7 +82,7 @@
 }
 
 .ricipe_name>.text_logo {
-    font-size: 35px;
+    font-size: 25px;
     color: black;
 }
 
@@ -147,6 +147,7 @@
     font-family: var(--font-family);
     font-size: x-large;
     margin-top: 10px;
+    color: var(--basic_color);
 }
 
 .item_breakfest:hover .overlay {
