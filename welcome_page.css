@@ -10,7 +10,7 @@
 body {
     --basic_color: #a0d468;
     --background_color: #f6fbf2;
-    --color_shadow:#daeec4;
+    --color_shadow: #daeec4;
     --font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -27,7 +27,8 @@ footer {
     height: 100%;
     margin: 0 auto;
 }
-header{
+
+header {
     position: fixed;
     width: 100%;
     top: 0;
@@ -42,12 +43,11 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-.center{
+
+.center {
     justify-content: center;
     align-items: center;
 }
-
-
 
 .header-menu {
     width: 70%;
@@ -107,7 +107,7 @@ header{
 
 
 .mobile-menu {
-    width: 100%;
+    width: 30%;
     display: none;
 }
 
@@ -278,11 +278,12 @@ header{
     }
 }
 
-.margin{
-  margin-top: 70px;
+.margin {
+    margin-top: 70px;
 }
+
 .distance {
-    height:200px;
+    height: 200px;
     width: 100%;
     justify-content: center;
 }
@@ -313,10 +314,6 @@ header{
     border-radius: 15px 15px 0 0;
 }
 
-/* img {
-    width: 100%;
-} */
-
 .partition_name {
     width: 80%;
     height: 20%;
@@ -326,9 +323,10 @@ header{
     color: var(--basic_color);
 }
 
-.breakfest{
- background-image: url(image/breakfast.webp);
+.breakfest {
+    background-image: url(image/breakfast.webp);
 }
+
 .lunch {
     background-image: url(image/lunch.webp);
 }
@@ -348,33 +346,40 @@ header{
 .snacks {
     background-image: url(image/snacks.webp)
 }
-.holiday_and_seasonal{
+
+.holiday_and_seasonal {
     background-image: url(image/holiday_and_seasonal.webp);
 }
-.recepe_by_diet{
+
+.recepe_by_diet {
     background-image: url(image/recepe_by_diet.webp);
 }
-.recepe_by_method{
+
+.recepe_by_method {
     background-image: url(image/recepe_by_method.webp);
 }
+
 @media screen and (max-width: 1300px) {
     .box {
         width: 45%;
         height: 350px;
     }
-    .header-logo{
-        width: 20%;
+
+    .header-menu {
+        width: 60%;
     }
+
 }
 
 @media screen and (max-width: 768px) {
     .container {
         width: 95%;
     }
-  
-    .header-logo{
-        width: 60%;
+
+    .menu-item {
+        font-size: small;
     }
+
     .header-menu {
         display: none;
     }
@@ -383,13 +388,8 @@ header{
         display: block;
     }
 
-    .header-logo {
-        width: 100%;
-        border: #000 2px solid;
-    }
-
     p {
-        font-size: x-large;
+        font-size: large;
     }
 
     header,
