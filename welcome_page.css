@@ -375,9 +375,8 @@ header {
     .container {
         width: 95%;
     }
-
     .menu-item {
-        font-size: small;
+        font-size: smaller;
     }
 
     .header-menu {
