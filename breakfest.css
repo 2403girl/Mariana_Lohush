@@ -177,7 +177,7 @@
 
 }
 
-.btn-10 {
+.btn {
     background: var(--color_shadow);
     background: linear-gradient(0deg, #A0D468 0%, rgb(192, 229, 164)100%);
     color: #fff;
@@ -186,7 +186,7 @@
     overflow: hidden;
 }
 
-.btn-10:after {
+.btn:after {
     position: absolute;
     content: " ";
     top: 0;
@@ -199,13 +199,13 @@
     transform: scale(.1);
 }
 
-.btn-10:hover {
+.btn:hover {
     color: #fff;
     border: none;
     background: transparent;
 }
 
-.btn-10:hover:after {
+.btn:hover:after {
     background: #a0d468;
     background: linear-gradient(0deg, #daeec4) 0%, rgb(159, 212, 105)100%;
     -webkit-transform: scale(1);
