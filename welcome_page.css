@@ -17,7 +17,7 @@ body {
 header,
 footer {
     width: 100%;
-    height: 70px;
+    min-height: 70px;
     background-color: var(--background_color);
     box-shadow: 0px 6px 6px 6px var(--color_shadow);
 }
@@ -31,6 +31,7 @@ footer {
 header {
     position: fixed;
     width: 100%;
+    height: 70px;
     top: 0;
 }
 
@@ -358,6 +359,34 @@ header {
 .recepe_by_method {
     background-image: url(image/recepe_by_method.webp);
 }
+footer>div{
+    margin: 15px 0 15px 15px;
+}
+.first_column{
+    width: 35%;
+    height: 100%;
+    }
+.second_column{
+    width: 40%;
+}
+.second_column >ul>li{
+    margin-top: 10px;
+}
+.second_column >ul>li>a{
+    font-size: 15px;
+
+}
+.first_column>a{
+    padding: 15px 0;
+}
+.lets_be_frends{
+    margin-top: 20px;
+    color: #000000;
+}
+.lets_be_frends>a>i{
+font-size: 35px;
+
+}
 
 @media screen and (max-width: 1300px) {
     .box {
@@ -370,6 +399,13 @@ header {
     }
 .text_logo{
     font-size: x-large;
+}
+.lets_be_frends{
+    flex-direction: column;
+}
+.searchTerm {
+    width: 90px;
+  
 }
 }
 
@@ -395,7 +431,6 @@ header {
     .distance > .text_logo{
         font-size: 18px;
         color: #9c68d4;
-
    
     }
 
@@ -403,8 +438,8 @@ header {
         font-size: large;
     }
 
-    header,
-    footer {
+    header
+     {
         height: 80px;
     }
 
@@ -416,4 +451,17 @@ header {
     .distance>p {
         font-size: x-large;
     }
+    .lets_be_frends>a>i{
+        font-size: 25px;
+        margin-top: 5px;
+}
+.first_column{
+    width: 50%;
+    }
+.second_column{
+    width: 50%;
+}
+.first_column>a>p{
+    font-size: 22px;
+}
 }
