@@ -368,7 +368,9 @@ header {
     .header-menu {
         width: 60%;
     }
-
+.text_logo{
+    font-size: x-large;
+}
 }
 
 @media screen and (max-width: 768px) {
@@ -377,6 +379,7 @@ header {
     }
     .menu-item {
         font-size: smaller;
+
     }
 
     .header-menu {
@@ -385,6 +388,15 @@ header {
 
     .mobile-menu {
         display: block;
+    }
+    .text_logo{
+        font-size: x-large;
+    }
+    .distance > .text_logo{
+        font-size: 18px;
+        color: #9c68d4;
+
+   
     }
 
     p {

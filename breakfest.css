@@ -23,8 +23,6 @@
 .breakfest_1{
     background-image: url(image/breakfest_1.webp);
 }
-
-
 .breakfest_2 {
     background-image: url(image/Breakfest_2.webp);
 }
@@ -65,7 +63,8 @@
 
 .text_top {
     height: 10%;
-    color: #9c68d4;
+    margin-top: 3px;
+    color: var(--basic_color);
     display: flex;
     justify-content: space-around;
     padding-top: 5px;
@@ -93,7 +92,7 @@
 }
 
 .star>p {
-    color: #9c68d4;
+    color: var(--basic_color);
 }
 
 /* .Lets_cook {
@@ -221,6 +220,12 @@
     .ingredients>p {
         margin-top: 5px;
     }
+    .ricipe_name>.text_logo{
+        font-size: large;
+    }
+    .star>p {
+        font-size: small;
+    }
 
 }
 
@@ -229,4 +234,37 @@
         width: 100%;
         height: 400px;
     }
+    /* .recipe {
+        grid-column-start: 1;
+        grid-column-end: 5;
+    } */
+    .recipe {
+        grid-column-start: 2;
+        grid-column-end: 6;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        background-color: cornsilk;
+    }
+
+    .item_breakfest {
+        grid-template-columns: 30% 10% 10% 10% 40%;
+        grid-template-rows: 10% 10% 30% 40% 10%;
+    }
+    .image_breakfest {
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 6;
+    }
+    .overlay {
+        grid-row: 1 / 6;
+        grid-column: 1 / 6;
+        padding-left: 10px;
+}
+.star>p {
+    font-size: 10px;
+}
+.list_of_ingredients{
+    padding-left: 10px;
+}
 }
