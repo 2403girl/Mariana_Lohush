@@ -359,32 +359,40 @@ header {
 .recepe_by_method {
     background-image: url(image/recepe_by_method.webp);
 }
-footer>div{
+
+footer>div {
     margin: 15px 0 15px 15px;
 }
-.first_column{
+
+.first_column {
     width: 35%;
     height: 100%;
-    }
-.second_column{
+}
+
+.second_column {
     width: 40%;
 }
-.second_column >ul>li{
+
+.second_column>ul>li {
     margin-top: 10px;
 }
-.second_column >ul>li>a{
+
+.second_column>ul>li>a {
     font-size: 15px;
 
 }
-.first_column>a{
+
+.first_column>a {
     padding: 15px 0;
 }
-.lets_be_frends{
+
+.lets_be_frends {
     margin-top: 20px;
     color: #000000;
 }
-.lets_be_frends>a>i{
-font-size: 35px;
+
+.lets_be_frends>a>i {
+    font-size: 35px;
 
 }
 
@@ -397,22 +405,26 @@ font-size: 35px;
     .header-menu {
         width: 60%;
     }
-.text_logo{
-    font-size: x-large;
-}
-.lets_be_frends{
-    flex-direction: column;
-}
-.searchTerm {
-    width: 90px;
-  
-}
+
+    .text_logo {
+        font-size: x-large;
+    }
+
+    .lets_be_frends {
+        flex-direction: column;
+    }
+
+    .searchTerm {
+        width: 90px;
+
+    }
 }
 
 @media screen and (max-width: 768px) {
     .container {
         width: 95%;
     }
+
     .menu-item {
         font-size: smaller;
 
@@ -425,21 +437,22 @@ font-size: 35px;
     .mobile-menu {
         display: block;
     }
-    .text_logo{
+
+    .text_logo {
         font-size: x-large;
     }
-    .distance > .text_logo{
+
+    .distance>.text_logo {
         font-size: 18px;
         color: #9c68d4;
-   
+
     }
 
     p {
         font-size: large;
     }
 
-    header
-     {
+    header {
         height: 80px;
     }
 
@@ -451,17 +464,21 @@ font-size: 35px;
     .distance>p {
         font-size: x-large;
     }
-    .lets_be_frends>a>i{
+
+    .lets_be_frends>a>i {
         font-size: 25px;
         margin-top: 5px;
-}
-.first_column{
-    width: 50%;
     }
-.second_column{
-    width: 50%;
-}
-.first_column>a>p{
-    font-size: 22px;
-}
+
+    .first_column {
+        width: 50%;
+    }
+
+    .second_column {
+        width: 50%;
+    }
+
+    .first_column>a>p {
+        font-size: 22px;
+    }
 }

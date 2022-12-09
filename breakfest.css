@@ -20,24 +20,31 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.breakfest_1{
+
+.breakfest_1 {
     background-image: url(image/breakfest_1.webp);
 }
+
 .breakfest_2 {
     background-image: url(image/Breakfest_2.webp);
 }
+
 .breakfest_3 {
     background-image: url(image/breakfest_3.webp);
 }
-.breakfest_4{
+
+.breakfest_4 {
     background-image: url(image/breakfest_4.webp);
 }
-.breakfest_5{
+
+.breakfest_5 {
     background-image: url(image/breakfest_5.webp);
 }
-.breakfest_6{
+
+.breakfest_6 {
     background-image: url(image/breakfest_6.webp);
 }
+
 .recipe {
     display: flex;
     justify-content: end;
@@ -117,32 +124,38 @@
 
 .overlay::-webkit-scrollbar {
     width: 1em;
-  }
+}
 
-  .overlay::-webkit-scrollbar-track {
+.overlay::-webkit-scrollbar-track {
     box-shadow: inset 0 0 6px var(--color_shadow);
-  }
+}
 
-  .overlay::-webkit-scrollbar-thumb {
+.overlay::-webkit-scrollbar-thumb {
     background-color: var(--basic_color);
     outline: 1px solid slategrey;
-  }
-.ingredients{
+}
+
+.ingredients {
     display: flex;
 }
-.Lets_cook{
+
+.Lets_cook {
     display: flex;
 }
-.list_of_ingredients>ul>p{
+
+.list_of_ingredients>ul>p {
     color: var(--basic_color);
     font-size: x-large;
 }
-.list_of_ingredients>ul>li{
+
+.list_of_ingredients>ul>li {
     list-style-image: url(image/spoon-solid.svg);
 }
+
 .list_of_ingredients>ul>li>i {
     color: var(--basic_color);
 }
+
 .ingredients>p {
     font-family: var(--font-family);
     font-size: x-large;
@@ -218,12 +231,15 @@
         width: 95%;
         height: 400px;
     }
+
     .ingredients>p {
         margin-top: 5px;
     }
-    .ricipe_name>.text_logo{
+
+    .ricipe_name>.text_logo {
         font-size: large;
     }
+
     .star>p {
         font-size: small;
     }
@@ -235,6 +251,7 @@
         width: 100%;
         height: 400px;
     }
+
     /* .recipe {
         grid-column-start: 1;
         grid-column-end: 5;
@@ -251,21 +268,25 @@
         grid-template-columns: 30% 10% 10% 10% 40%;
         grid-template-rows: 10% 10% 30% 40% 10%;
     }
+
     .image_breakfest {
         grid-column-start: 1;
         grid-column-end: 6;
         grid-row-start: 1;
         grid-row-end: 6;
     }
+
     .overlay {
         grid-row: 1 / 6;
         grid-column: 1 / 6;
         padding-left: 10px;
-}
-.star>p {
-    font-size: 10px;
-}
-.list_of_ingredients{
-    padding-left: 10px;
-}
+    }
+
+    .star>p {
+        font-size: 10px;
+    }
+
+    .list_of_ingredients {
+        padding-left: 10px;
+    }
 }
